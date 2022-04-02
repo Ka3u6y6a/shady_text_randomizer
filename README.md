@@ -13,7 +13,7 @@ $ pip install shady_tr
 
 ### Usage
 
-Class ** ShadyTextRandomizer**  has two parameters:
+Class **ShadyTextRandomizer**  has two parameters:
 1. [string] Source text
 2. [int from 0 to 100] Symbol replace chance. If chance is equals 100, then each possible symbol well be converted to similar one.
 

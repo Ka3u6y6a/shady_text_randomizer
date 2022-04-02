@@ -1,7 +1,7 @@
 ## Shady Text Randomizer
 
 The **Shady Text Randomizer** is a python package that helps to avoid spam-filters by replacing some characters in text with similar characters from other languages. 
-As a result, the result text is not equal to the source text. 
+As a result, the output text is not equal to the input but visually indistinguishable from it. 
 
 The **Shady Text Randomizer** supports latin and cyrillic symbols.
 
@@ -22,10 +22,13 @@ Class **ShadyTextRandomizer**  has two parameters:
 >>
 >> text_rnd = ShadyTextRandomizer("Hello! How are you?", 100)
 >> text_rnd.random_latin()
->>
+'Ꮋеllо! Нοԝ аrе γᴏυ?'
+
 >> text_rnd = ShadyTextRandomizer("Привет! Как дела?", 100)
 >> text_rnd.random_cyrillic()
+'Πpᴎᏼeт! Κaκ дeлa?'
 ```
+Some characters in the output text have completely different UTF-8 codes.
 
 ### License
 

@@ -9,7 +9,7 @@ setuptools.setup(
     version="0.0.1",
     author="Ka3u6y6a",
     author_email="",
-    description="......",
+    description="Helps to avoid spam-filters by replacing some characters in text with similar characters from other languages",
     long_description=README,
     long_description_content_type="text/markdown",
     license='MIT License',
